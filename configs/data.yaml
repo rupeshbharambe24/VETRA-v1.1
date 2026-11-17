@@ -1,0 +1,9 @@
+# YOLOv8-pose dataset config for VETRA v1.1 (6 side-view keypoints, single class "cow").
+# Paths are relative to this file (Ultralytics resolves them against the YAML's folder).
+train: ../data/yolo_split/images/train
+val: ../data/yolo_split/images/val
+nc: 1
+kpt: 6
+kpt_shape: [6, 2]
+skeleton: [[0, 1], [2, 3], [4, 5]]
+names: ['cow']

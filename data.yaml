@@ -1,7 +1,0 @@
-train: data_split/images/train
-val: data_split/images/val
-nc: 1
-kpt: 6
-kpt_shape: [6, 2]
-skeleton: [[0, 1], [2, 3], [4, 5]]
-names: ['cow']

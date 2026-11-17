@@ -1,0 +1,13 @@
+# Versions seen in the notebook logs: Python 3.11, Ultralytics 8.3.203, torch 2.6.0+cu124
+ultralytics==8.3.203
+torch
+opencv-python
+numpy
+pandas
+openpyxl          # pandas.read_excel for data/measurements.xlsx
+matplotlib
+seaborn
+scikit-learn
+xgboost
+joblib
+jupyter
